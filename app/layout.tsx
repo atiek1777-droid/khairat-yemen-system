@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import { Toaster } from "sonner";
+import { SWRegister } from "@/components/SWRegister";
+import { InstallPrompt } from "@/components/InstallPrompt";
 import "./globals.css";
 
 const tajawal = localFont({
@@ -19,8 +21,10 @@ export const metadata: Metadata = {
   title: "معامل خيرات اليمن — نظام إدارة التوزيع",
   description: "نظام إدارة المخزون والمبيعات والديون والمصروفات والتسويات لمعامل خيرات اليمن",
   icons: {
-    icon: "/favicon.png",
+    icon: "/icon-192.png",
+    apple: "/apple-touch-icon.png",
   },
+  manifest: "/manifest.webmanifest",
 };
 
 export const viewport: Viewport = {
@@ -34,6 +38,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="ar" dir="rtl" className={tajawal.variable}>
       <body>
+        <SWRegister />
+        <InstallPrompt />
         {children}
         <Toaster position="top-center" richColors dir="rtl" />
       </body>
