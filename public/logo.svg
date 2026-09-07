@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="98" fill="#146B4A"/>
+  <circle cx="100" cy="100" r="98" fill="none" stroke="#D9A441" stroke-width="3"/>
+  <circle cx="100" cy="100" r="84" fill="none" stroke="#D9A441" stroke-width="1.2" opacity="0.6"/>
+  <circle cx="100" cy="100" r="74" fill="#FCF8EE"/>
+  <g stroke="#1F8A5B" stroke-width="2.2" fill="#1F8A5B" opacity="0.9">
+    <path d="M48 118c-6-16-4-34 6-46" fill="none" stroke-linecap="round"/>
+    <ellipse cx="52" cy="100" rx="5" ry="8" transform="rotate(-25 52 100)"/>
+    <ellipse cx="47" cy="86" rx="5" ry="8" transform="rotate(-15 47 86)"/>
+    <ellipse cx="46" cy="70" rx="5" ry="8"/>
+    <path d="M152 118c6-16 4-34-6-46" fill="none" stroke-linecap="round"/>
+    <ellipse cx="148" cy="100" rx="5" ry="8" transform="rotate(25 148 100)"/>
+    <ellipse cx="153" cy="86" rx="5" ry="8" transform="rotate(15 153 86)"/>
+    <ellipse cx="154" cy="70" rx="5" ry="8"/>
+  </g>
+  <path d="M100 46c11 15 20 26.4 20 37.8C120 96.5 111 106 100 106s-20-9.5-20-22.2C80 72.4 89 61 100 46Z" fill="#F4C542" stroke="#D9A441" stroke-width="2"/>
+  <path d="M91 88c0 6 4.5 11 10.5 12" stroke="#FCF8EE" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.65"/>
+  <text x="100" y="134" text-anchor="middle" font-size="19" font-weight="700" fill="#146B4A" font-family="Tajawal, Arial, sans-serif">خيرات اليمن</text>
+  <text x="100" y="151" text-anchor="middle" font-size="10.5" font-weight="700" fill="#1F8A5B" font-family="Tajawal, Arial, sans-serif">معامل زيوت ومنتجات غذائية</text>
+</svg>
