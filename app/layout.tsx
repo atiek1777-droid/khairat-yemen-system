@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   title: "معامل خيرات اليمن — نظام إدارة التوزيع",
   description: "نظام إدارة المخزون والمبيعات والديون والمصروفات والتسويات لمعامل خيرات اليمن",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/favicon.png",
   },
 };
 
